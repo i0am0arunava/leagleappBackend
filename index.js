@@ -33,7 +33,7 @@ mongoose
   
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://tubular-granita-c4ee13.netlify.app",
     credentials: true,
   },
 });
